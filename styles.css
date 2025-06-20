@@ -1,0 +1,167 @@
+.encabezado {
+  background-color: #003566;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.encabezado h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.indice ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.indice a {
+  color: #ffffff; 
+  padding: 8px 14px; /* Más espacio interior */
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: underline;
+
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.indice a:hover {
+  background-color: #e0f0ff; /* Azul muy suave al pasar el mouse */
+  color: #003566;
+}
+
+
+.perfil {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.foto-perfil img {
+  width: 180px;
+  height: 175px;
+  border-radius: 60%;
+  border: 3px solid #0077b6;
+}
+
+.datos-perfil {
+  flex: 1;
+}
+
+.bloque {
+  padding: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.area-laboral {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.area-laboral .texto {
+  flex: 1;
+  max-width: 50%;
+}
+
+.imagenes-mini {
+  display: flex;
+  gap: 15px;
+  padding-top: 90px;
+}
+
+.imagenes-mini img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #0077b6;
+}
+
+.perfil-frase {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+   margin-top: 5px;
+}
+
+.perfil-frase > div {
+  width: 40%;
+}
+
+.lema {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-left: 5px solid #0077b6;
+  font-style: italic;
+  height: 100px;
+  margin-top: 90px;
+}
+
+.destacado {
+  background-color: #0077b6;
+  color: white;
+  padding: 25px;
+  text-align: center;
+   margin-top: 5px;
+}
+
+.imagenes-texto {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.imagenes-texto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #0077b6;
+  margin-bottom: 10px;
+}
+
+.link-extra {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.link-extra a {
+  background-color: #00b4d8;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #001d3d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+video {
+  border: 5px solid #0077b6;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
